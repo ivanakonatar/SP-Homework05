@@ -27,7 +27,7 @@ for i in range(length):
         d[x[i]] = y
 
 
-plt.bar(range(len(d)), list(d.values()), align = 'center')
+plt.bar(range(len(d)), list(d.values()), align='center')
 plt.xticks(range(len(d)), list(d.keys()))
 
 plt.show()
