@@ -16,7 +16,7 @@ y = 0
 
 for i in range(length):
 
-    if x[i] not in d and x[i] != ' ':
+    if x[i] not in d and x[i].isalpha():
 
         for j in range(i, length):
 
