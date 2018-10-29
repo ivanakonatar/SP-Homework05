@@ -12,11 +12,12 @@ x = input("Your document: ")
 d = {}
 length = len(x)
 
-y = 0
 
 for i in range(length):
 
     if x[i] not in d and x[i].isalpha():
+
+        y = 0
 
         for j in range(i, length):
 
@@ -24,7 +25,7 @@ for i in range(length):
                 y += 1
 
         d[x[i]] = y
-        y = 0
+
 
 
 
